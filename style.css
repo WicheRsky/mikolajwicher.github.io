@@ -177,17 +177,22 @@ span {
 }
 
 button {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #2573D9;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
+	background-color: #2573D9;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s;
 }
 
 button:hover {
-  background-color: white !important;
+	background-color: transparent;
+	border: 2px solid #2573D9;
+	cursor: pointer;
+	color: white !important;
+	text-decoration: none !important;
 }
 
 button a:link {
