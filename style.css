@@ -312,7 +312,7 @@ button a:link {
 	color: white;
 	font-size: 75px;
 	width: 100%;
-	margin: 100px auto;
+	margin: 30px auto;
 	text-align: center;
 }
 
@@ -453,4 +453,7 @@ footer p:nth-child(3) {
 #back-to-top:hover {
 	background-color: #011C40;
 	opacity: 5;
+}
+html {
+  scroll-behavior: smooth;
 }
