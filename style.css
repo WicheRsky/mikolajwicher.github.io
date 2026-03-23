@@ -11,12 +11,13 @@ body {
 }
 
 .hero {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	background-image: url("./bannerportfolioweb.jpg");
 	background-size: contain;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	padding-bottom: 80px;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 
 nav {
 	display: flex;
-	allign-items: center;
+	align-items: center;
 	justify-content: space-between;
 	padding-top: 45px;
 	padding-left: 8%;
@@ -133,7 +134,7 @@ h4 {
 
 .about {
 	width: 50%;
-	padding: 150px 0px;
+	padding: 100px 0;
 }
 
 .about-text {
@@ -145,7 +146,7 @@ h4 {
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
-	allign-items: center;
+	align-items: center;
 	justify-content: space-around;
 }
 
@@ -222,15 +223,15 @@ button a:link {
 	background-color: #D8D321;
 }
 
-.container {
+.skills .container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, minmax(420px, 520px));
 	justify-content: center;
 	align-items: stretch;
 	text-align: center;
 	grid-gap: 1.5rem;
-	padding: 1rem 80px;
-	font-size: 1.1rem;
+	padding: 1rem 40px;
+	font-size: 1.05rem;
 }
 
 .skill-box {
@@ -239,11 +240,16 @@ button a:link {
 	cursor: pointer;
 	background: rgba(255, 255, 255, 0.03);
 	border-radius: 16px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.skill-box:hover>.skill-title:after,
-.skill-box:hover>.skill-title:before {
-	width: 35px;
+.skill-box:hover .skill-title:after,
+.skill-box:hover .skill-title:before {
+	width: 55px;
+	bottom: 25px;
 }
 
 .skill-box:hover .img {
@@ -251,9 +257,9 @@ button a:link {
 }
 
 .skill-box p {
-	margin: 0.4rem 0;
-	line-height: 1.5;
-	font-size: 1rem;
+	margin: 0.35rem 0;
+	line-height: 1.0;
+	font-size: 0.98rem;
 }
 
 .skill-title {
@@ -263,6 +269,7 @@ button a:link {
 	padding: 0.5rem;
 	margin-bottom: 0.5rem;
 	position: relative;
+	gap: 8px;
 }
 
 .skill-title:after {
@@ -303,7 +310,10 @@ button a:link {
 
 .skill-title h3 {
 	color: white;
-	margin-top: 0.5rem;
+	margin-top: 0;
+	font-size: 1.2rem;
+	line-height: 1.3;
+	text-align: center;
 }
 
 .skill-icon {
@@ -360,7 +370,7 @@ h5 {
 .pra p {
 	color: #D8D321;
 	font-size: 16px;
-	lin-height: 27px;
+	line-height: 27px;
 	margin-bottom: 25px;
 }
 
