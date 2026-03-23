@@ -475,10 +475,3 @@ footer p:nth-child(3) {
 html {
   scroll-behavior: smooth;
 }
-
-@media screen and (max-width: 880px) {
-	.container {
-		grid-template-columns: 1fr;
-		padding: 1rem 30px;
-	}
-}
