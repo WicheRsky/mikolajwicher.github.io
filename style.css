@@ -337,12 +337,13 @@ button a:link {
 .box {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	min-height: 400px;
+	align-items: stretch;
+	flex-wrap: wrap;
+	min-height: auto;
 }
 
 .card {
-	height: 365px;
+	min-height: 365px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #011126;
@@ -351,6 +352,9 @@ button a:link {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .card i {
@@ -369,9 +373,9 @@ h5 {
 
 .pra p {
 	color: #D8D321;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
+	font-size: 15px;
+	line-height: 1.6;
+	margin-bottom: 20px;
 }
 
 .card .button {
