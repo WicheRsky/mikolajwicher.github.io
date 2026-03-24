@@ -258,8 +258,8 @@ button a:link {
 
 .skill-box p {
 	margin: 0.35rem 0;
-	line-height: 1.0;
-	font-size: 0.98rem;
+	line-height: 1.2;
+	font-size: 16px;
 }
 
 .skill-title {
@@ -344,7 +344,7 @@ button a:link {
 
 .card {
 	min-height: 365px;
-	width: 335px;
+	width: 400px;
 	padding: 20px 35px;
 	background: #011126;
 	border-radius: 20px;
@@ -373,7 +373,7 @@ h5 {
 
 .pra p {
 	color: #D8D321;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 20px;
 }
@@ -478,4 +478,11 @@ footer p:nth-child(3) {
 }
 html {
   scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 880px) {
+	.container {
+		grid-template-columns: 1fr;
+		padding: 1rem 30px;
+	}
 }
