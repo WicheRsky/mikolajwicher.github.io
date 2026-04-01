@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Mikołaj Wicher | Portfolio Website</title>
+	<meta charset="UTF-8">
+
+	<title>Mikołaj Wicher Portfolio Website</title>
 	
 	<link rel="icon" type="image/png" href="mikolajwicherlogo.png">
 
@@ -17,17 +19,14 @@
 
 </head>
 <body>
-	<script type="text/javascript" scr="script.js"></script>
-		
-		<div class="smooth-scroll-wrapper">
-			<div class="content"></div>
-		</div>
+	<script type="text/javascript" src="script.js"></script>
+		<div class="smooth-scroll-wrapper"></div>
+		<div class="page-content">
 
 		<!----hero Section start---->
 		<div class="hero">
 			<nav>
 				<h2 class="logo">Mikołaj <span>Wicher</span></h2>
-				</h2>
 				<ul>
 					<li><a href="index.html">About</a></li>
 					<li><a href="index.html">Skills</a></li>
@@ -36,62 +35,106 @@
 				</ul>
 				<a href="CV-Resume.pdf" download class="btn-download">Resume/CV</a>
 			</nav>
-			<section class="about">
-				<div class="main">
-				<div class="about-text">
-					<h5>Quick explanation</h5>
-					<p>I would like to invite you to familiarize yourself with my amateur game projects. The projects are diverse, from games based on single mechanics, through more complex mechanics and quests, ending with
-					level design.</p>
-					<p>At this moment, I'am trying to develop myself in the direction of mechanics and animation.
-					Ultimately I want to fully learn as a developer in the Unreal Engine.</p>
-					<p>Below I present projects, concepts, which I try to update and add new ones on an ongoing basis.</p>
-				</div>
-				</div>
+			<!-----project Section start----->
+			<section class="project-case">
+			    <div class="project-wrapper">
+			        <details class="project-dropdown">
+			            <summary class="project-summary-bar">
+			                <div class="summary-text">
+			                    <p class="project-tag">Bachelor Thesis Project</p>
+			                    <h1>Drops of Lethe</h1>
+			                    <p class="project-short">Cyberpunk roguelite hack’n’slash prototype with strong focus on gameplay systems, combat feel and testing / iteration.</p>
+			                </div>
+			                <span class="summary-icon">+</span>
+			            </summary>
+			            <div class="project-content">
+			                <div class="project-grid">
+			                    <div class="project-card">
+			                        <h3>Project Overview</h3>
+			                        <p>Drops of Lethe is a single-player roguelite hack’n’slash game set in a dystopian cyberpunk world. The player controls Edward Grove, a protagonist trying to recover lost memories while progressing through dangerous areas of a futuristic megacity.</p>
+			                    </div>
+			                    <div class="project-card">
+			                        <h3>Core Gameplay</h3>
+			                        <ul>
+			                            <li>Fast melee combat</li>
+			                            <li>Stamina-based dodge system</li>
+			                            <li>Active and passive abilities</li>
+			                            <li>Room progression with rewards</li>
+			                        </ul>
+			                    </div>
+			                    <div class="project-card">
+			                        <h3>Tech & Tools</h3>
+			                        <ul>
+			                            <li>Unreal Engine 5.4</li>
+			                            <li>Blueprint-based systems</li>
+			                            <li>GitHub Desktop</li>
+			                            <li>Blender + external assets</li>
+			                        </ul>
+			                    </div>
+			                    <div class="project-card">
+			                        <h3>Game Direction</h3>
+			                        <p>The project combines dynamic hack’n’slash combat with roguelite replayability and a dark cyberpunk setting inspired by modern action games and dystopian sci-fi themes.</p>
+			                    </div>
+			                </div>
+			                <div class="project-section">
+			                    <h2>My Contribution</h2>
+			                    <div class="project-grid small-gap">
+			                        <div class="project-card">
+			                            <h3>Gameplay Systems</h3>
+			                            <p>I was responsible for a large part of the gameplay layer. My work included movement, camera setup, combat logic, combo implementation, abilities, dodge mechanics, HUD integration, final boss work, map randomness and gameplay-related fixes.</p>
+			                        </div>
+			                        <div class="project-card">
+			                            <h3>Iteration & Debugging</h3>
+			                            <p>Besides implementation, I spent a lot of time improving mechanics in practice, testing how they felt during gameplay, fixing logic issues and making combat more responsive, readable and satisfying.</p>
+			                        </div>
+			                    </div>
+			                </div>
+			                <div class="project-section">
+			                    <h2>Testing & QA Perspective</h2>
+			                    <div class="project-grid small-gap">
+			                        <div class="project-card">
+			                            <h3>What was tested</h3>
+			                            <ul>
+			                                <li>Combat flow and responsiveness</li>
+			                                <li>Enemy behavior and encounter logic</li>
+			                                <li>HUD and stamina integration</li>
+			                                <li>Progression between rooms / levels</li>
+			                            </ul>
+			                        </div>
+			                        <div class="project-card">
+			                            <h3>Why it matters</h3>
+			                            <p>This project was important to me not only from the game development side, but also from the QA perspective. Building and testing gameplay systems taught me how small logic issues can directly affect player experience and how important iteration, validation and debugging are in interactive software.</p>
+			                        </div>
+			                    </div>
+			                </div>
+			                <div class="project-section">
+			                    <h2>Selected Screens</h2>
+			                    <div class="gallery-grid">
+			                        <div class="gallery-item">
+			                            <img src="screen_1.jpg" alt="Drops of Lethe screenshot 1" class="gallery-thumb">
+			                            <p>Gameplay screenshot</p>
+			                        </div>
+			                        <div class="gallery-item">
+			                            <img src="screen_2.jpg" alt="Drops of Lethe screenshot 2" class="gallery-thumb">
+			                            <p>Combat / HUD screenshot</p>
+			                        </div>
+			                        <div class="gallery-item">
+			                            <img src="screen_3.jpg" alt="Drops of Lethe screenshot 3" class="gallery-thumb">
+			                            <p>Environment / Boss screenshot</p>
+			                        </div>
+			                    </div>
+			                </div>
+			            </div>
+			        </details>
+			    </div>
 			</section>
-		</div>
-
-		<!------game project section------->
-		<div class="container">
-		<area id="projects"></area>
-			<div class="title">
-				<h2>Demo Adventure Game</h2>
+			<div id="lightbox" class="lightbox">
+			    <span class="lightbox-close">&times;</span>
+			    <img class="lightbox-content" id="lightbox-img" alt="Expanded screenshot">
 			</div>
-
-			<div class="box">
-				<div class="card">
-					<h5><img src="health_stamina.png" height="325" width="635"></h5>
-				</div>
-				<div class="card">
-					<h5>A prototype game project created in Unreal Engine, demonstrating key gameplay elements and basic interaction systems. The game has implemented a simple, dynamic combat system, enabling engaging fights with AI opponents reacting to player actions in a specific area. A mission system has also been developed, which allows for the completion of story tasks, diversifying and giving structure to the gameplay. The HUD interface displays key information such as health and stamina levels, supporting resource management and increasing immersion. The project also includes an inventory system with the possibility of segregating items and interacting with the character, e.g. changing weapons.</h5>
-					<h5>The whole thing is a solid foundation for the development of the game, combining functionality with intuitive operation and aesthetics.</h5>
-					<h5>Git link to <a href="https://github.com/WicheRsky/Demo-Adventure-Game">this project.</a></h5>
-				</div>
-			</div>
-			<div class="box">
-				<div class="card">
-					<h5><img src="combat.png" height="325" width="635"></h5>
-				</div>
-				<div class="card">
-					<h5><img src="enemy_ai.png" height="325" width="635"></h5>
-				</div>
-			</div>
-			<div class="title">
-				<h2>AI System in Unity</h2>
-			</div>
-
-			<div class="box">
-				<div class="card">
-					<h5>As part of this project, I created an AI mechanic in Unity that simulates the behavior of a character in a gym. The character randomly selects the duration of the exercise and the type of activity, e.g. running on a treadmill, lifting weights or exercising on machines. The mechanism is based on randomness algorithms and a simple decision system. The project demonstrates the use of AI to create dynamic and realistic behaviors in interactive environments.</h5>
-					<h5>The project required advanced use of C# and integration of logic with Unity Animator to match animations to selected exercises. The implementation was a great programming challenge and allowed me to develop skills in designing dynamic virtual environments and using AI in games.</h5>
-					<h5>Git link to <a href="https://github.com/WicheRsky/AI-in-Unity">this project.</a></h5>
-				</div>
-				<div class="card">
-					<h5><img src="ai_gym.jpg" height="325" width="635"></h5>
-				</div>
-			</div>
-		</div>
-
-		<!-----footer start------->
+		</div> <!--.hero-->
+		</div> <!--.page-content-->
+		<!-----footer Section start------->
 		<area id="contact"></area>
 		<footer>
 			<p>Mikołaj Wicher</p>
@@ -104,7 +147,6 @@
 			</div>
 			<p class="end"><i class="fa-regular fa-copyright"></i> 2023 Developed by Mikołaj Wicher</p>
 		</footer>
-
 		<!----back to top------->
 		<a href="#" id="back-to-top">
 			<ion-icon name="arrow-up-outline"></ion-icon>
