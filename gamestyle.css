@@ -105,20 +105,20 @@ span{
 .project-tag{
     color: #2573D9;
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .project-summary-bar h1{
     color: white;
     font-size: 48px;
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 .project-short{
     color: #D8D321;
     font-size: 18px;
     line-height: 1.7;
-    max-width: 850px;
+    max-width: 700px;
 }
 .summary-icon{
     color: white;
@@ -141,6 +141,42 @@ span{
     font-size: 38px;
     text-align: center;
     margin-bottom: 24px;
+}
+.project-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.project-links-row{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: #2573D9;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.25s ease;
+}
+.project-btn:hover{
+    transform: scale(1.07);
+    background: #1b5bb3;
+}
+.project-btn.secondary{
+    background: transparent;
+    border: 2px solid #2573D9;
+}
+.project-btn.secondary:hover{
+    background: #2573D9;
 }
 .project-grid{
     display: grid;
