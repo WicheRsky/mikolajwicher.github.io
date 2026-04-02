@@ -1,3 +1,8 @@
+![Website](https://img.shields.io/badge/Project-Personal%20Website-blue)
+![Frontend](https://img.shields.io/badge/Stack-HTML%20%2F%20CSS%20%2F%20JS-orange)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![Focus](https://img.shields.io/badge/Focus-QA%20Portfolio-purple)
+
 # Portfolio Website
 
 This is my personal portfolio website, designed and developed to present my skills, experience, and projects.
