@@ -24,8 +24,8 @@ Its purpose is to showcase my technical background and provide a central place f
 
 This project serves as a base for further development and will be continuously updated with new projects, especially in the area of QA and software testing.
 
-https://mikolajwicher.pl
-------------------------
+https://mikolajwicher.com
+-------------------------
 
 ## Author
 
