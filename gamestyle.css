@@ -13,10 +13,10 @@ body{
     flex-direction: column;
     min-height: 100vh;
 }
-.page-content {
+.page-content{
     flex: 1 0 auto;
 }
-.hero {
+.hero{
     width: 100%;
 }
 nav{
@@ -32,6 +32,16 @@ nav{
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
+}
+.logo a{
+    color: inherit;
+    text-decoration: none;
+}
+.logo a:visited{
+    color: inherit;
+}
+.logo a:hover{
+    color: #2573D9;
 }
 nav ul li{
     list-style-type: none;
@@ -63,6 +73,18 @@ nav ul li a:hover{
 }
 span{
     color: #D8D321;
+}
+.back-button{
+    margin: 50px 8%;
+}
+.back-button a{
+    color: #D8D321;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.back-button a:hover{
+    color: white;
 }
 .project-case{
     width: 100%;

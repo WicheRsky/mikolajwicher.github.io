@@ -1,16 +1,14 @@
-* {
+*{
 	padding: 0;
 	margin: 0;
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
-
 html,
-body {
+body{
 	scroll-behavior: smooth;
 }
-
-.hero {
+.hero{
 	min-height: 100vh;
 	width: 100%;
 	background-image: url("./bannerportfolioweb.jpg");
@@ -19,17 +17,14 @@ body {
 	background-repeat: no-repeat;
 	padding-bottom: 80px;
 }
-
-body {
+body{
 	background-color: #011C40;
 }
-
-.content {
+.content{
 	width: 80%;
 	margin: 160px auto;
 }
-
-nav {
+nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -37,33 +32,28 @@ nav {
 	padding-left: 8%;
 	padding-right: 8%;
 }
-
-.logo {
+.logo{
 	color: white;
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-
-nav ul li {
+nav ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px 25px;
 }
-
-nav ul li a {
+nav ul li a{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
 }
-
-nav ul li a:hover {
+nav ul li a:hover{
 	color: #2573D9;
 	transition: .4s;
 }
-
-.btn-download {
+.btn-download{
 	background-color: #2573D9;
 	color: white;
 	text-decoration: none;
@@ -73,43 +63,36 @@ nav ul li a:hover {
 	border-radius: 30px;
 	transition: transform .4s;
 }
-
-.btn-download:hover {
+.btn-download:hover{
 	transform: scale(1.2);
 }
-
-.content {
+.content{
 	position: absolute;
 	top: 50%;
 	left: 8%;
 	transform: translateY(-50%);
 }
-
-h1 {
+h1{
 	color: white;
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
-
-h3 {
+h3{
 	color: white;
 	font-size: 25px;
 	margin-bottom: 50px;
 }
-
-h4 {
+h4{
 	color: #2573D9;
 	letter-spacing: 2px;
 	font-size: 20px;
 }
-
-.newslatter form {
+.newslatter form{
 	width: 380px;
 	max-width: 100%;
 	position: relative;
 }
-
-.newslatter form input:first-child {
+.newslatter form input:first-child{
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
@@ -117,8 +100,7 @@ h4 {
 	outline: none;
 	border-radius: 30px;
 }
-
-.newslatter form input:last-child {
+.newslatter form input:last-child{
 	position: absolute;
 	display: inline-block;
 	outline: none;
@@ -131,18 +113,15 @@ h4 {
 	top: 6px;
 	right: 6px;
 }
-
-.about {
+.about{
 	width: 50%;
 	padding: 100px 0 120px;
 	margin-top: 100px;
 }
-
-.about-text {
+.about-text{
 	width: 550px;
 }
-
-.main {
+.main{
 	width: 1130px;
 	max-width: 95%;
 	margin: 0 auto;
@@ -150,35 +129,30 @@ h4 {
 	align-items: center;
 	justify-content: space-around;
 }
-
-.about-text h2 {
+.about-text h2{
 	color: white;
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
-
-.about-text h5 {
+.about-text h5{
 	color: white;
 	letter-spacing: 2px;
 	font-size: 22px;
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
-
-span {
+span{
 	color: #D8D321;
 }
-
-.about-text p {
+.about-text p{
 	color: #D8D321;
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
 }
-
-button {
+button{
 	background-color: #2573D9;
 	color: #fff;
 	text-decoration: none;
@@ -188,32 +162,27 @@ button {
 	border-radius: 30px;
 	transition: .4s;
 }
-
-button:hover {
+button:hover{
 	background-color: transparent;
 	border: 2px solid #2573D9;
 	cursor: pointer;
 	color: white !important;
 	text-decoration: none !important;
 }
-
-button a:link {
+button a:link{
 	color: white !important;
 	text-decoration: none !important;
 }
-
-.skills {
+.skills{
 	padding-top: 75px;
 }
-
-.header {
+.header{
 	text-align: center;
 	color: #D8D321;
 	padding: 1rem;
 	position: relative;
 }
-
-.header:after {
+.header:after{
 	content: '';
 	position: absolute;
 	bottom: 50;
@@ -223,8 +192,7 @@ button a:link {
 	width: 150px;
 	background-color: #D8D321;
 }
-
-.skills .container {
+.skills .container{
 	display: grid;
 	grid-template-columns: repeat(2, minmax(420px, 520px));
 	justify-content: center;
@@ -234,8 +202,7 @@ button a:link {
 	padding: 1rem 40px;
 	font-size: 1.05rem;
 }
-
-.skill-box {
+.skill-box{
 	padding: 1.5rem;
 	color: white;
 	cursor: pointer;
@@ -246,24 +213,20 @@ button a:link {
 	flex-direction: column;
 	justify-content: flex-start;
 }
-
 .skill-box:hover .skill-title:after,
-.skill-box:hover .skill-title:before {
+.skill-box:hover .skill-title:before{
 	width: 55px;
 	bottom: 25px;
 }
-
-.skill-box:hover .img {
+.skill-box:hover .img{
 	transform: translateY(-10px);
 }
-
-.skill-box p {
+.skill-box p{
 	margin: 0.35rem 0;
 	line-height: 1.2;
 	font-size: 16px;
 }
-
-.skill-title {
+.skill-title{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -272,8 +235,7 @@ button a:link {
 	position: relative;
 	gap: 8px;
 }
-
-.skill-title:after {
+.skill-title:after{
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -284,8 +246,7 @@ button a:link {
 	background-color: #D8D321;
 	transition: .5s;
 }
-
-.skill-title:before {
+.skill-title:before{
 	content: '';
 	position: absolute;
 	bottom: 0;
@@ -296,8 +257,7 @@ button a:link {
 	background-color: #D8D321;
 	transition: .5s;
 }
-
-.img {
+.img{
 	width: 90px;
 	height: 90px;
 	position: relative;
@@ -308,42 +268,36 @@ button a:link {
 	align-items: center;
 	transition: .5s;
 }
-
-.skill-title h3 {
+.skill-title h3{
 	color: white;
 	margin-top: 0;
 	font-size: 1.2rem;
 	line-height: 1.3;
 	text-align: center;
 }
-
-.skill-icon {
+.skill-icon{
 	width: 50px;
 	z-index: 2;
 }
-
-.projects {
+.projects{
 	width: 100%;
 	padding: 150px 0px;
 }
-
-.title h2 {
+.title h2{
 	color: white;
 	font-size: 75px;
 	width: 100%;
 	margin: 30px auto;
 	text-align: center;
 }
-
-.box {
+.box{
 	display: flex;
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
 	min-height: auto;
 }
-
-.card {
+.card{
 	min-height: 365px;
 	width: 400px;
 	padding: 20px 35px;
@@ -357,29 +311,25 @@ button a:link {
 	flex-direction: column;
 	justify-content: space-between;
 }
-
-.card i {
+.card i{
 	font-size: 50px;
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
 	color: #2573D9;
 }
-
-h5 {
+h5{
 	color: white;
 	font-size: 23px;
 	margin-bottom: 15px;
 }
-
-.pra p {
+.pra p{
 	color: #D8D321;
 	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 20px;
 }
-
-.card .button {
+.card .button{
 	background-color: #2573D9;
 	color: white;
 	text-decoration: none;
@@ -389,14 +339,12 @@ h5 {
 	border-radius: 30px;
 	transition: .4s;
 }
-
-.card .button:hover {
+.card .button:hover{
 	background-color: transparent;
 	border: 2px solid #2573D9;
 	cursor: pointer;
 }
-
-footer {
+footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
@@ -406,34 +354,30 @@ footer {
 	align-items: center;
 	justify-content: center;
 }
-
-footer p:nth-child(1) {
+footer p:nth-child(1){
 	font-size: 30px;
 	color: white;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
-
-footer p:nth-child(2) {
+footer p:nth-child(2){
 	color: white;
 	font-size: 17px;
 	width: 430px;
 	text-align: center;
 	line-height: 26px;
 }
-footer p:nth-child(3) {
+footer p:nth-child(3){
 	color: white;
 	font-size: 17px;
 	width: 430px;
 	text-align: center;
 	line-height: 26px;
 }
-
-.social {
+.social{
 	display: flex;
 }
-
-.social a {
+.social a{
 	width: 45px;
 	height: 45px;
 	display: flex;
@@ -445,20 +389,17 @@ footer p:nth-child(3) {
 	color: white;
 	text-decoration: none;
 }
-
-.social a:hover {
+.social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
 }
-
-.end {
+.end{
 	position: absolute;
 	color: #D8D321;
 	bottom: 35px;
 	font-size: 14px;
 }
-
-#back-to-top {
+#back-to-top{
 	position: fixed;
 	right: 25px;
 	bottom: 25px;
@@ -472,17 +413,15 @@ footer p:nth-child(3) {
 	cursor: pointer;
 	transition: background-color 0.5s;
 }
-
-#back-to-top:hover {
+#back-to-top:hover{
 	background-color: #011C40;
 	opacity: 5;
 }
-html {
+html{
   scroll-behavior: smooth;
 }
-
-@media screen and (max-width: 880px) {
-	.container {
+@media screen and (max-width: 880px){
+	.container{
 		grid-template-columns: 1fr;
 		padding: 1rem 30px;
 	}

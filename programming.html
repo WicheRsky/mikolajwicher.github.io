@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+
 	<title>Mikołaj Wicher | Portfolio Website</title>
 	
 	<link rel="icon" type="image/png" href="mikolajwicherlogo.png">
 
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./gamestyle.css">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	
@@ -17,16 +19,15 @@
 
 </head>
 <body>
-	<script type="text/javascript" scr="script.js"></script>
-		
-		<div class="smooth-scroll-wrapper">
-			<div class="content"></div>
-		</div>
+	<script type="text/javascript" src="script.js"></script>
+		<div class="smooth-scroll-wrapper"></div>
+		<div class="page-content">
 
 		<!----hero Section start---->
 		<div class="hero">
 			<nav>
-				<h2 class="logo">Mikołaj <span>Wicher</span></h2>
+				<h2 class="logo">
+					<a href="index.html">Mikołaj <span>Wicher</span></a>
 				</h2>
 				<ul>
 					<li><a href="index.html">About</a></li>
@@ -36,6 +37,9 @@
 				</ul>
 				<a href="CV-Resume.pdf" download class="btn-download">Resume/CV</a>
 			</nav>
+		<div class="back-button">
+    		<a href="index.html" onclick="history.back()">← Go back</a>
+		</div>
 		</div>
 		
 		<!-----footer start------->
